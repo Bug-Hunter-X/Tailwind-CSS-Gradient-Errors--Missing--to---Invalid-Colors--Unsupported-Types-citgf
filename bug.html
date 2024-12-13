@@ -1,0 +1,8 @@
+```html
+<div class="bg-gradient-to-r from-blue-500 to-purple-500 p-4 rounded-lg shadow-md">
+  <!-- Content here -->
+</div>
+```
+This code uses Tailwind CSS's gradient feature.  A common mistake is to forget to include the `to` value in a gradient definition, or to use an invalid color value, which can lead to unexpected visual results or errors.
+
+Another potential issue is using unsupported gradients. Make sure your Tailwind configuration supports the gradient type being used.  For example, `to-r`, `to-b`, `to-t`, `to-l`, `to-br`, etc.  Using an unsupported one (e.g., `to-center`) won't throw an error but will render unexpectedly.
